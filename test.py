@@ -11,7 +11,7 @@ class db():
             self.fileContent = open('database.txt','r')
             for item in self.fileContent: 
                 self.myList.append(item.split())
-        except :
+        except:
             self.fileContent = open('database.txt','w')
         self.fileContent.close()
 

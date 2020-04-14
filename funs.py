@@ -18,4 +18,6 @@ def cmd_call(cmd):
         print(err)
 
 
-cmd_call('cd Asset')
+#cmd_call('cd Asset')
+
+os.system('')
